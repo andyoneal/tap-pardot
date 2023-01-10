@@ -425,7 +425,7 @@ class VisitorActivities(CreatedAtReplicationStream):
     # We've encountered a situation where we have been unable to finish the sync due
     # to fetching too much data. Data science is only using some types of visitor
     # activities. Hence, we can filter out the used ones only.
-    filter_types = "1,2,4,6,17,21,24,25,26,27,28,29,34"
+    filter_types = "1,2,3,4,5,6,11,12,13,14,15,16,17,20,21,23,24,25,28,29,35,36,37"
     datetime_format = "%Y-%m-%d %H:%M:%S"
 
     def get_params(self):
